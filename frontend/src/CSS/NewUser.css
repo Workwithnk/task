@@ -1,0 +1,43 @@
+.NewUser {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40vh;
+}
+
+.form_NU {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.form_NU input {
+  font-size: 16px;
+  width: 100%;
+  outline: none;
+  padding: 5px 5px;
+}
+.form_NU button {
+  cursor: pointer;
+}
+.btnCon_NU {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  margin-top: 6%;
+}
+.btnCon_NU button {
+  cursor: pointer;
+  padding: 8px 20px;
+  border-radius: 10px;
+  color: white;
+}
+
+.saveBtn {
+  background-color: #1abc9c;
+}
+.cancelBtn {
+  background-color: #e74c3c;
+}
